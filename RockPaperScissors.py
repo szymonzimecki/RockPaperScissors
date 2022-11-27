@@ -4,7 +4,7 @@ wygrane2 = 2
 
 runda = 1
 
-while wygrane1 != 3 or wygrane2 != 3:
+while wygrane1 != 3 and wygrane2 != 3:
     
     player1_choose = str(input("\nPodaj wybór Gracz1: "))
     player2_choose = str(input("Podaj wybór Gracz2: "))
